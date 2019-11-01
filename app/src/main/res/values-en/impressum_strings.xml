@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="file_impr_Gen">ng_info_impr_en.html</string>
+    <string name="file_impr_OSS">file:///android_asset/ng_info_oss_en.html</string>
+
+    <string name="pref_Help_Title">Help</string>
+    <string name="pref_Settings_Title">Settings</string>
+    <string name="pref_Info_Cat_Title">About</string>
+    <string name="pref_Info_Title">"Capricorn system resource app Copyright © 2014 – 2019 F. Leins. Version: "</string>
+    <string name="pref_Impressum_Title">About / Impressum</string>
+    <string name="pref_Publisher_Title">Publisher</string>
+    <string name="pref_DataPrivacy_Title">Data privacy</string>
+    <string name="pref_Haftungsausschluss_Title">Disclaimer</string>
+    <string name="pref_Impressum_Sum">Frank Leins,\nHakenäckerweg 22,\n73230 Kirchheim/Teck,\nGermany,\neMail: franky.l.hw22@gmail.com</string>
+    <string name="pref_DataPrivacy_Sum">Capricorn will not collect personal data. Data are collected only to display in the app or the widgets and furthermore not stored permanently and not forwarded to any third party.</string>
+    <string name="pref_Haftungsausschluss_Sum">Capricorn has been carefully developed. The publisher assumes no liability for damages that are caused or created by the direct or indirect use of Capricorn.</string>
+
+    <string name="pref_OSS_Expl">This app contains Open Source Software. Many thanks to all involved people for creation of the software. The following overview shows the license information for Capricorn.</string>
+
+
+</resources>

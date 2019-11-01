@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_General_Cat_Title">General</string>
+    <string name="pref_View_Cat_Title">Widget display positions</string>
+    <string name="pref_View_Scr_Title">Position 1 to 7 (from left to right)</string>
+
+
+    <string name="pref_CurVal_Title_SDK">SDK</string>
+    <string name="pref_CurVal_FingerPrint">device fingerprint:</string>
+    <string name="pref_CurVal_Title_DeviceInfo">Device Information</string>
+    <string name="pref_CurVal_Title_Standard">General values</string>
+    <string name="pref_CurVal_Title">Current values in detail"</string>
+    <string name="pref_CurVal_LastBoot">Last device reboot:</string>
+    <string name="pref_CurVal_MobileDataInfo1">Mobile data</string>
+    <string name="pref_CurVal_MobileDataInfo2">measured since last device boot:</string>
+    <string name="pref_CurVal_MobileDataInfo3">Average value used:</string>
+    <string name="pref_CurVal_MobileDataInfo4">Total value used:</string>
+    <string name="pref_CurVal_Total">Total:</string>
+    <string name="pref_CurVal_Received">Received:</string>
+    <string name="pref_CurVal_Sent">Sent:</string>
+    <string name="pref_CurVal_MobileMeanMax">Max / day:</string>
+    <string name="pref_CurVal_MobileMeanCur">Current / day:</string>
+    <string name="pref_CurVal_MobileMax">Possible until today:</string>
+    <string name="pref_CurVal_MobileCur">Actual until today:</string>
+    <string name="pref_CurVal_CallDataInfo1">Calls</string>
+    <string name="pref_CurVal_CallDataInfo2">Outgoing calls:</string>
+    <string name="pref_CurVal_CallDataInfo3">Incoming calls:</string>
+    <string name="pref_CurVal_CallDataInfo4">Missed calls:</string>
+    <string name="pref_CurVal_CallDataInfo5">Consider SMS:</string>
+    <string name="pref_CurVal_Call_Unit">Min</string>
+
+
+</resources>

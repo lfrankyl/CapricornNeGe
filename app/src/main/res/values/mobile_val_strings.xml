@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_MobileScreen_Title">Mobile Daten</string>
+
+    <string name="pref_CostRelevantData_Title">Kosten relevante Daten</string>
+    <string name="pref_CostRelevantData_Key">pref_CostRelevantData_Key</string>
+    <string name="pref_Cur_Bill_Period_Title">Aktueller Abrechnungszeitraum</string>
+    <string name="pref_Cur_Bill_Period_Title1">Wechseldatum:</string>
+    <string name="pref_Cur_Bill_Period_Title2">noch</string>
+    <string name="pref_Cur_Bill_Period_Title3">Tage</string>
+    <string name="pref_Cur_Bill_Period_Title4">Zykluslänge:</string>
+    <string name="pref_Cur_Bill_Period_Title5">monatlich</string>
+
+    <string name="pref_MobileMessungSaved_Key" translatable="false">pref_MobileMessungSaved_Key"></string>
+
+</resources>

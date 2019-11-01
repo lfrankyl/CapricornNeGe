@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btn_help_Gen">Allgemein</string>
+    <string name="btn_help_Widget">Widget Anzeige</string>
+    <string name="btn_help_Cost">Kosten relevante Daten</string>
+    <string name="btn_help_Wifi">WLAN Daten</string>
+    <string name="btn_help_App">App Anzeige</string>
+
+    <string name="file_help_Gen">file:///android_asset/ng_help_gen.html</string>
+    <string name="file_help_Widget">file:///android_asset/ng_help_widget.html</string>
+    <string name="file_help_Cost">file:///android_asset/ng_help_costs.html</string>
+    <string name="file_help_Wifi">file:///android_asset/ng_help_wifi.html</string>
+    <string name="file_help_App">file:///android_asset/ng_help_app.html</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_CurVal_WLANMeasured_Key" translatable="false">pref_CurVal_WLANMeasured_Key</string>
+    <string name="pref_CurVal_WLANDisplay_Key" translatable="false">pref_CurVal_WLANDisplay_Key</string>
+    <string name="pref_CurVal_WLANDataInfo1">WLAN Daten</string>
+    <string name="pref_CurVal_WLANDataInfo2">gemessen seit letztem Geräte Neustart:</string>
+    <string name="pref_CurVal_WLANDataInfo3">Anzeigewert:</string>
+    <string name="pref_CurVal_WLANDataInfo4">gemessen seit:</string>
+
+    <string name="pref_wlanStartDate_Key" translatable="false">pref_wlanStartDate_Key</string>
+    <string name="pref_wlanStartDate_Title">Start der Messung am:</string>
+    <string name="pref_wlanOffset_Key" translatable="false">pref_wlanOffset_Key</string>
+    <string name="pref_wlanRefVal_Title">Startwert für WLAN Daten</string>
+    <string name="pref_wlanRefVal_Explanation">Bitte geben Sie den Startwert ein. Das ist der Wert der zu den gemessenen Daten addiert wird.</string>
+    <string name="pref_wlanRefVal_Sum">Startwert für WLAN Daten ist: </string>
+    <string name="pref_wlanRefVal_Default" translatable="false">0</string>
+    <string name="pref_wlanRefVal_Unit">MByte</string>
+    <string name="pref_wlanResetOffset_Key" translatable="false">pref_wlanResetOffset_Key</string>
+    <string name="pref_wlanResetOffset_Title">Reset Startwert</string>
+
+
+    <string name="pref_NuPiRef_Wlan_Key" translatable="false">pref_NuPiRef_Wlan_Key</string>
+    <string name="pref_WifiSetup_Key" translatable="false">pref_WifiSetup_Key</string>
+
+</resources>

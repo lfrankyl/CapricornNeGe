@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ng_app_name" translatable="false">CapricornNG</string>
+    <string name="ng_DontKnow" translatable="false">\u003F</string>
+
+    <string name="ng_nd">nicht definiert</string>
+    <string name="ng_proz" translatable="false">\u0089</string>
+
+    <string name="ng_NotWorking" translatable="false">n/w</string>
+    <string name="ng_NotAvailable" translatable="false">n/a</string>
+    <string name="ng_First_Run" translatable="false">cpc_First_Run</string>
+
+    <string name="ng_blankChr" translatable="false">\u0020</string>
+    <string name="ng_Tab" translatable="false">\u0009</string>
+    <string name="ng_NotKnown">nicht bekannt</string>
+    <string name="ng_DefaultText" translatable="false">tbd</string>
+    <string name="ng_pref_On">An</string>
+    <string name="ng_pref_Off">Aus</string>
+    <string name="DefaultText">tbd</string>
+
+</resources>

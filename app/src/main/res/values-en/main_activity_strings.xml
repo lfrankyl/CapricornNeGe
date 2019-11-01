@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_capt_Calls">Calls</string>
+    <string name="btn_capt_Mob">Data</string>
+    <string name="btn_capt_Netwrk">Network</string>
+    <string name="btn_capt_Std">Standard</string>
+    <string name="btn_capt_Update">Update</string>
+    <string name="btn_capt_Wifi">Wifi</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	app:key="pref_settings_cost">
+	<PreferenceCategory
+		app:title="@string/pref_CostRelevantData_Title"
+		app:icon="@drawable/ng_cost_rel_data_frag">
+    
+		<ListPreference
+			app:key="@string/pref_MobileOptions_Key"
+			app:title="@string/pref_MobileOptions_Title"
+			app:entries="@array/mobileOptionsArray"
+			app:entryValues="@array/mobileOptionsArray_Values"
+			app:defaultValue="@string/pref_MobileOptions_Default"
+			app:summary="@string/pref_MobileOptions_Sum" />
+
+		<de.franky.l.capricornng.NG_Dlg_NuPi_Preference
+			app:key="@string/pref_NuPiCycle_Key"
+			app:title="@string/pref_MobileCycle_Title"
+			app:persistent="true"
+			app:summary="@string/pref_MobileCycle_Sum1" />
+
+		<ListPreference
+			app:key="@string/pref_MobileCycleOption_Key"
+			app:title="@string/pref_MobileCycleOption_Title"
+			app:entries="@array/MobileCycleOptionArray"
+			app:entryValues="@array/MobileCycleOptionArray_Indices"
+			app:defaultValue="@string/pref_MobileCycleOption_Default"
+			app:summary="@string/pref_MobileCycleOption_Sum" />
+	</PreferenceCategory>
+
+				
+	<PreferenceCategory
+		app:title="@string/pref_CurVal_MobileDataInfo1"
+		app:icon="@drawable/ng_mobdata_gen_frag_new">
+
+		<SwitchPreference
+			app:key="@string/pref_MobileMonitoring_Key"
+			app:title="@string/pref_MobileMonitoring_Title"
+			app:summaryOn="@string/pref_Monitoring_SumOn"
+			app:summaryOff="@string/pref_Monitoring_SumOff" />
+		<SwitchPreference
+			app:key="@string/pref_MobileView_Key"
+			app:title="@string/pref_MobileView_Title"
+			app:entries="@array/pref_MobileView"
+			app:summaryOn="@string/pref_MobileView_SumOn"
+			app:summaryOff="@string/pref_MobileView_SumOff" />
+
+		<de.franky.l.capricornng.NG_Dlg_NuPi_Preference
+			app:key="@string/pref_NuPiMax_Mob_Key"
+			app:title="@string/pref_MobileMaxVal"
+			app:persistent="true"
+			app:summary="@string/pref_MobileMaxVal_Sum" />
+		<de.franky.l.capricornng.NG_Dlg_NuPi_Preference
+			app:key="@string/pref_NuPiRef_Mob_Key"
+			app:title="@string/pref_MobileRefVal_Title"
+			app:persistent="true"
+			app:summary="@string/pref_MobileRefVal_Sum" />
+	</PreferenceCategory>
+
+	<Preference
+			app:key="@string/pref_Calls_Screen_Key"
+			app:icon="@drawable/ng_phone_gen_frag"
+			app:title="@string/pref_CurVal_CallDataInfo1"
+			app:fragment="de.franky.l.capricornng.NG_Settings_Frag_Calls_Data">
+	</Preference>
+
+
+</androidx.preference.PreferenceScreen>

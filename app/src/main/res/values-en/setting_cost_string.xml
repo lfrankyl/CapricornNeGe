@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_MobileScreen_Title">Mobile Data</string>
+
+    <string name="pref_MobileOptions_Title">Data calculation</string>
+    <string name="pref_MobileOptions_Sum">Selected is: </string>
+
+    <string name="pref_MobileRefVal_Title">Used mobile data</string>
+    <string name="pref_MobileRefVal_Explanation">Please enter already used mobile data of current session e.g the value from the app Settings or the real value from your service provider.</string>
+    <string name="pref_MobileRefVal_Sum">Used mobile data: </string>
+    <string name="pref_MobileRefVal_Unit">MByte</string>
+
+    <string name="pref_MobileCycle_Cat_Title">Zyklus options</string>
+
+    <string name="pref_MobileCycle_Title">Cycle for mobile data and calls</string>
+    <string name="pref_MobileCycle_Explanation">Please enter the day of month when the mobile data measurement shall start.</string>
+    <string name="pref_MobileCycle_Sum1">Data usage cycle will be reset on: </string>
+    <string name="pref_MobileCycle_Sum2">. of a month</string>
+    <string name="pref_MobileCycle_Unit">Date</string>
+    <string name="pref_MobileCycle_XXDays2Long_Title">Cycle conflict</string>
+    <string name="pref_MobileCycle_XXDays2Long_Message1">The entered change day is not within a</string>
+    <string name="pref_MobileCycle_XXDays2Long_Message2">-days cycle.\n\nThe calculation of the used free minutes and the data consumption can not be carried out correctly.\n\nPlease correct the change day.</string>
+
+    <string name="pref_MobileCycleOption_Title">Period type</string>
+    <string name="pref_MobileCycleOption_Sum">Period type set to: </string>
+
+    <string name="pref_MobileMonitoring_Title">Monitoring mobile data</string>
+    <string name="pref_CallsMonitoring_Title">Monitoring calls</string>
+    <string name="pref_Monitoring_SumOn">is activated</string>
+    <string name="pref_Monitoring_SumOff">is deactivated</string>
+
+    <string name="pref_MobileView_Title">Data view</string>
+    <string name="pref_MobileView_SumOn">left data</string>
+    <string name="pref_MobileView_SumOff">already used data</string>
+
+    <string name="pref_MobileMaxVal">High speed limit for mobile data</string>
+    <string name="pref_MobileMaxVal_Expl">Please enter the threshold value when you want to get a warning (e.g. the value of your high speed flat rate)</string>
+    <string name="pref_MobileMaxVal_Sum">High speed limit for mobile data is: </string>
+    <string name="pref_MobileMaxVal_Unit">MByte</string>
+
+    <string name="pref_Calls_RefVal_Title">Used free minutes</string>
+    <string name="pref_Calls_RefVal_Expl">Please enter the already used free minutes.</string>
+    <string name="pref_Calls_RefVal_Sum">Already used free minutes: </string>
+    <string name="pref_Calls_RefVal_Unit">Min</string>
+
+    <string name="pref_Calls_FreeNumb_Title">Free phone numbers</string>
+    <string name="pref_Calls_FreeNumb_Title_Delete">Remove free phone numbers</string>
+    <string name="pref_Calls_FreeNumb_Sum">saved free phone numbers</string>
+    <string name="pref_Calls_FreeNumb_Apply">Apply</string>
+    <string name="pref_Calls_FreeNumb_Task">please enter number including international aerea code</string>
+    <string name="pref_Calls_FreeNumb_Expl">Enter the phone numbers which are free of charge by your mobile contract.</string>
+    <string name="pref_Calls_FreeNumb_Delete">Please mark the numbers to be deleted and confirm with apply</string>
+    <string name="pref_Calls_FreeNumb_Info1">Capricorn has no access to your contacts.\n
+        If you want you can enter here phone numbers which are free of charge for you.\n
+        Capricorn will not use calls to this numbers to calculate your used free minutes.</string>
+    <string name="pref_Calls_FreeNumb_Info2">Capricorn does not forward these numbers to any third party, does not know the owner of these numbers and will use these numbers only for the internal calculations.\n
+        Therefore these numbers are not person related data for Capricorn</string>
+    <string name="pref_Calls_FreeNumb_Info3">After de-installation of Capricorn all data inclusive these phone numbers will be deleted entirely.</string>
+    <string name="pref_Calls_MaxVal">Number of free minutes</string>
+    <string name="pref_Calls_MaxVal_Expl">Please enter the value for your free minutes when you want to get a warning(e.g. the value of the free minutes from your contract)</string>
+    <string name="pref_Calls_MaxVal_Sum">Number of free minutes are: </string>
+    <string name="pref_Calls_MaxVal_Unit">Min</string>
+
+    <string name="pref_Calls_View_Title">Calls view</string>
+    <string name="pref_Calls_View_SumOn">left free minutes</string>
+    <string name="pref_Calls_View_SumOff">used free minutes</string>
+    <string name="pref_CallsIntegrateSMS_SumOff">will not integrated</string>
+    <string name="pref_CallsIntegrateSMS_SumOn">will be integrated</string>
+    <string name="pref_CallsIntegrateSMS_Title">SMS</string>
+
+</resources>

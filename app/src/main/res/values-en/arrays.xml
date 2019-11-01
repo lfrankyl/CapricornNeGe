@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="UpdateIntervall">
+        <item >0.2</item>
+        <item >0.5</item>
+        <item >1.0</item>
+        <item >2.0</item>
+        <item >3.0</item>
+        <item >5.0</item>
+        <item >10.0</item>
+        <item >20.0</item>
+    </string-array>
+
+    <string-array name="UpdateIntervall_Values">
+        <item >200</item>
+        <item >500</item>
+        <item >1000</item>
+        <item >2000</item>
+        <item >3000</item>
+        <item >5000</item>
+        <item >10000</item>
+        <item >20000</item>
+    </string-array>
+
+    <string-array name="viewoptions">
+        <item >CPU</item>
+        <item >RAM</item>
+        <item >int SD</item>
+        <item >ext SD</item>
+        <item >Battery</item>
+        <item >Mobile data</item>
+        <item >WLAN</item>
+        <item >Brightness</item>
+        <item >Calls</item>
+        <!--    <item >Calls</item> -->
+    </string-array>
+
+    <string-array name="viewoptions_Values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <!--    <item >8</item> -->
+        </string-array>
+
+    <string-array name="viewlanguage">
+        <item >German</item>
+        <item >English</item>
+    </string-array>
+
+    <string-array name="viewlanguage_Values">
+        <item >0</item>
+        <item >1</item>
+        </string-array>
+
+    <string-array name="mobileOptionsArray">
+        <item >without adaption</item>
+        <item >Reference value</item>
+        <item >Billing period</item>
+        </string-array>
+
+    <string-array name="mobileOptionsArray_Values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        </string-array>
+        
+    <string-array name="MobileCycleOptionArray">
+        <item >monthly</item>
+        <item >30 days</item>
+        <item >28 days</item>
+        </string-array>
+    <string-array name="MobileCycleOptionArray_Indices">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+
+    <integer-array name="MobileCycleOptionArray_Values">
+        <item >0</item>
+        <item >30</item>
+        <item >28</item>
+    </integer-array>
+
+    <string-array name="pref_MobileView">
+        <item >used data</item>
+        <item >left data</item>
+        </string-array>
+    <string-array name="pref_MobileView_Values">
+        <item >0</item>
+        <item >1</item>
+        </string-array>
+    <string-array name="pref_TextSize">
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        </string-array>
+    <string-array name="pref_TextSize_Values">
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        </string-array>
+    <string-array name="pref_DataUnits">
+        <item>Byte</item>
+        <item>KByte</item>
+        <item>MByte</item>
+        <item>GByte</item>
+        <item>TByte</item>
+    </string-array>
+    <string-array name="pref_Background">
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+    <string-array name="pref_Background_Color">
+        <item>1E1E2D</item>
+        <item>f1edec</item>
+    </string-array>
+    <string-array name="pref_Background_Values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_WidgetFontColor">
+        <item>white</item>
+        <item>black</item>
+        <item>red</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>yellow</item>
+        <item>cyan</item>
+        <item>magenta</item>
+        <item>light grey</item>
+        <item>dark grey</item>
+    </string-array>
+    <string-array name="pref_WidgetFontColor_Values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+</resources>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cpc_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.franky.l.capricornng.NG_MainActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/pref_CostRelevantData_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_C_H1"
+            android:layout_weight="10"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iV_C_H"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/ng_cost_rel_data_frag" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/ng_main_blue" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tV_C_H2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/pref_Cur_Bill_Period_Title"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL1"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="@string/pref_Cur_Bill_Period_Title4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_C_T1"
+            android:layout_weight="4"/>
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_C_V1"
+            android:layout_weight="3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:id="@+id/tV_C_V2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:id="@+id/tV_C_T3"
+            android:text="@string/pref_Cur_Bill_Period_Title1" />
+
+        <TextView
+            android:id="@+id/tV_C_V3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/ng_DontKnow" />
+
+        <TextView
+            android:id="@+id/tV_C_Space"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/ng_main_blue" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/pref_MobileScreen_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_H1"
+            android:layout_weight="10"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ng_mobdata_gen_frag_new"
+            android:id="@+id/iV_M2"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/pref_MobileMaxVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV_M_H2"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/holo_blue_dark" />
+    <TextView
+        android:text="@string/pref_CurVal_MobileDataInfo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV_M_H3"
+        android:paddingBottom="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/pref_CurVal_MobileMax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_T1"
+            android:layout_weight="5" />
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_V1"
+            android:layout_weight="5" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+            android:text="@string/pref_CurVal_MobileCur"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_T2"
+            android:layout_weight="5" />
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_V2"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+
+    <TextView
+        android:text="@string/pref_CurVal_MobileDataInfo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV_M_H4"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/pref_CurVal_MobileMeanMax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_T3"
+            android:layout_weight="5" />
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_V3"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_T4"
+            android:layout_weight="5"
+            android:text="@string/pref_CurVal_MobileMeanCur" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_V4"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/pref_CurVal_MobileDataInfo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV_M_H5"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/pref_CurVal_Total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_T5"
+            android:layout_weight="5" />
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_V5"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/pref_CurVal_Received"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_T6"
+            android:layout_weight="5" />
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_V6"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/pref_CurVal_Sent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_T7"
+            android:layout_weight="5" />
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_V7"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_T8"
+            android:layout_weight="5"
+            android:textSize="14sp" />
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_V8"
+            android:layout_weight="5" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_T9"
+            android:layout_weight="5"
+            android:textSize="14sp" />
+
+        <TextView
+            android:text="@string/ng_DontKnow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_M_V9"
+            android:layout_weight="5" />
+    </LinearLayout>
+</LinearLayout>

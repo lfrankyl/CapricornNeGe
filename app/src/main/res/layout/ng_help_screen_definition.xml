@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".NG_Activity_HelpHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/hsv_btn_help">
+            <LinearLayout
+                    android:id="@+id/ll_help_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:background="@drawable/ng_btn_default">
+                <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ng_btn_help_bckgrd_port"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ng_btn_main_textcolor"
+                        android:id="@+id/btn_help_gen"
+                        android:textOff="@string/btn_help_Gen"
+                        android:textOn="@string/btn_help_Gen"
+                        android:drawableLeft="@drawable/ng_help"
+                        android:padding="5dp"/>
+
+                <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ng_btn_help_bckgrd_port"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ng_btn_main_textcolor"
+                        android:id="@+id/btn_help_Widget"
+                        android:textOff="@string/btn_help_Widget"
+                        android:textOn="@string/btn_help_Widget"
+                        android:drawableLeft="@drawable/ng_view_pos_help" android:padding="5dp"/>
+
+                <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ng_btn_help_bckgrd_port"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ng_btn_main_textcolor"
+                        android:id="@+id/btn_help_cost"
+                        android:textOff="@string/btn_help_Cost"
+                        android:textOn="@string/btn_help_Cost"
+                        android:drawableLeft="@drawable/ng_cost_rel_data_help"
+                        android:padding="5dp"/>
+
+                <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ng_btn_help_bckgrd_port"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ng_btn_main_textcolor"
+                        android:id="@+id/btn_help_Wifi"
+                        android:textOff="@string/btn_help_Wifi"
+                        android:textOn="@string/btn_help_Wifi"
+                        android:drawableLeft="@drawable/ng_wlan_help" android:padding="5dp"/>
+
+                <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ng_btn_help_bckgrd_port"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ng_btn_main_textcolor"
+                        android:id="@+id/btn_help_App"
+                        android:textOff="@string/btn_help_App"
+                        android:textOn="@string/btn_help_App"
+                        android:drawableLeft="@drawable/ng_cur_val_help" android:padding="5dp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fl_frag_container_impr">
+                <fragment
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/ng_frag_impr"
+                        android:name="de.franky.l.capricornng.NG_Frag_Std"/>
+
+                <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/ng_viewpager_help"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"/>
+            </FrameLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

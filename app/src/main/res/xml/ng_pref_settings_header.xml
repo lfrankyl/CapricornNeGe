@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:key="pref_main_screen"
+    app:title="CapriCorn NG settings">
+    <Preference
+            app:key="pref_general"
+            app:icon="@drawable/ng_frag"
+            app:title="@string/pref_General_Cat_Title"
+            app:fragment="de.franky.l.capricornng.NG_Settings_Frag_Gen">
+    </Preference>
+    <Preference
+            app:key="pref_widget"
+            app:icon="@drawable/ng_view_pos_frag"
+            app:title="@string/pref_View_Cat_Title"
+            app:summary="@string/pref_View_Scr_Title">
+        <!--     android:fragment="de.franky.l.capricorn.Cpc_Settings_Frag_Wid_View_Pos"> -->
+    </Preference>
+    <Preference
+            app:key="pref_costs"
+            app:icon="@drawable/ng_cost_rel_data_frag"
+            app:title="@string/pref_CostRelevantData_Title"
+            app:fragment="de.franky.l.capricornng.NG_Settings_Frag_Cost_Rel_Data">
+    </Preference>
+    <Preference
+            app:key="pref_wlan"
+            app:icon="@drawable/ng_wlan_frag"
+            app:title="@string/pref_CurVal_WLANDataInfo1"
+            app:fragment="de.franky.l.capricornng.NG_Settings_Frag_Wlan">
+    </Preference>
+</androidx.preference.PreferenceScreen>

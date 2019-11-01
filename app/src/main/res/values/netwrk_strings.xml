@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_NetWrk_Caption">Netzwerkstatus</string>
+    <string name="pref_NetWrk_Status">Status</string>
+    <string name="pref_NetWrk_NoNetWrk">kein Netzwerk</string>
+    <string name="pref_NetWrk_NoNetWrkConn">keine Netzwerk Verbindung</string>
+    <string name="pref_NetWrk_Type">Typ</string>
+    <string name="pref_NetWrk_ip4">IPv4 Adresse</string>
+    <string name="pref_NetWrk_ip6">IPv6 Adresse</string>
+    <string name="pref_NetWrk_Rming">Roamingstatus</string>
+    <string name="pref_NetWrk_MobileTyp">Mobil Typ</string>
+    <string name="pref_NetWrk_BSSID" translatable="false">BSSID</string>
+    <string name="pref_NetWrk_SSID" translatable="false">SSID</string>
+    <string name="pref_NetWrk_LinkSpeed">Max Geschw.</string>
+    <string name="pref_NetWrk_Frq">Frequenz</string>
+
+</resources>

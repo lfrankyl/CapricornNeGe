@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	app:key="pref_settings_wlan"
+	android:id="@+id/ng_setting_frag_wlan">
+
+	<PreferenceCategory
+		app:icon="@drawable/ng_wlan_frag"
+		app:title="@string/pref_CurVal_WLANDataInfo1">
+
+		<EditTextPreference
+			app:key="@string/pref_wlanStartDate_Key"
+			app:title="@string/pref_wlanStartDate_Title"
+			app:summary="@string/DefaultText"
+			app:selectable="false" />
+		<de.franky.l.capricornng.NG_Dlg_NuPi_Preference
+			app:key="@string/pref_NuPiRef_Wlan_Key"
+			app:title="@string/pref_wlanRefVal_Title"
+			app:persistent="true"
+			app:summary="@string/pref_wlanRefVal_Sum" />
+		<Preference
+			app:key="@string/pref_wlanResetOffset_Key"
+		app:title="@string/pref_wlanResetOffset_Title"/>
+	</PreferenceCategory>
+</androidx.preference.PreferenceScreen>

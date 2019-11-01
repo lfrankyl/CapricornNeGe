@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		app:key="pref_settings_gen">
+
+	   <PreferenceCategory
+			app:icon="@drawable/ng_frag"
+			app:title="@string/pref_General_Cat_Title">
+	   <ListPreference
+			app:key="@string/pref_Intervall_Key"
+			app:title="@string/pref_Intervall_Title"
+			app:entries="@array/UpdateIntervall"
+			app:entryValues="@array/UpdateIntervall_Values"
+			app:defaultValue="@string/pref_Intervall_Default"
+			app:summary="@string/pref_Intervall_Sum" />
+
+	   <ListPreference
+			app:key="@string/pref_TextSize_Key"
+			app:title="@string/pref_TextSize_Title"
+			app:entries="@array/pref_TextSize"
+			app:entryValues="@array/pref_TextSize_Values"
+			app:defaultValue="@string/pref_TextSize_Default"
+			app:summary="@string/pref_TextSize_Sum" />
+
+	   <ListPreference
+			app:key="@string/pref_TextSizeApp_Key"
+			app:title="@string/pref_TextSizeApp_Title"
+			app:entries="@array/pref_TextSize"
+			app:entryValues="@array/pref_TextSize_Values"
+			app:defaultValue="@string/pref_TextSizeApp_Default"
+			app:summary="@string/pref_TextSizeApp_Sum" />
+
+	   <ListPreference
+			app:key="@string/pref_WdgtFontcolor_Key"
+			app:title="@string/pref_WdgtFontcolor_Title"
+			app:entries="@array/pref_WidgetFontColor"
+			app:entryValues="@array/pref_WidgetFontColor_Values"
+			app:defaultValue="@string/pref_WdgtFontcolor_Default"
+			app:summary="@string/pref_WdgtFontcolor_Sum" />
+
+	   <ListPreference
+			app:key="@string/pref_Background_Key"
+			app:title="@string/pref_Background_Title"
+			app:entries="@array/pref_Background"
+			app:entryValues="@array/pref_Background_Values"
+			app:defaultValue="@string/pref_Background_Default"
+			app:summary="@string/pref_Background_Sum" />
+       <de.franky.l.capricornng.NG_Dlg_NuPi_Preference
+           app:key="@string/pref_NuPi_BckgrdTransp_Key"
+           app:title="@string/pref_BckgrdTransp_Title"
+           app:persistent="true"
+           app:summary="@string/pref_BckgrdTransp_Sum" />
+
+       <ListPreference
+			app:key="@string/pref_Language_Key"
+			app:title="@string/pref_Language_Title"
+			app:entries="@array/viewlanguage"
+			app:entryValues="@array/viewlanguage_Values"
+			app:defaultValue="@string/pref_Language_Default"
+			app:summary="@string/pref_Language_Sum"
+			app:selectable="false"/>
+	</PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

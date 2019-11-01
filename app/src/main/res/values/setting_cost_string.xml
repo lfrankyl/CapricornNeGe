@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_MobileOptions_Key" translatable="false">pref_MobileOptions_Key</string>
+    <string name="pref_MobileOptions_Value_Key" translatable="false">pref_MobileOptions_Value_Key</string>
+    <string name="pref_MobileOptions_Title">Datenberechnung</string>
+    <string name="pref_MobileOptions_Sum">Ausgewählt ist: </string>
+    <string name="pref_MobileOptions_Default" translatable="false">1</string>
+
+    <string name="pref_MobileMessung_Key" translatable="false">pref_MobileOffset_Key</string>
+    <string name="pref_MobileRefVal_Title">Verbrauchte mobile Daten</string>
+    <string name="pref_MobileRefVal_Explanation">Bitte geben Sie die für den Abrechnungszeitraum bereits verbrauchten Daten ein, z.B. den Wert aus der App Einstellungen oder den tatsächlichen Wert von Ihrem Dienstanbieter.</string>
+    <string name="pref_MobileRefVal_Sum">Verbrauchte mobile Daten: </string>
+    <string name="pref_MobileRefVal_Default" translatable="false">0</string>
+    <string name="pref_MobileRefVal_Unit">MByte</string>
+
+    <string name="pref_NuPiCycle_Key" translatable="false">pref_NuPiCycle_Key</string>
+
+
+    <string name="pref_MobileCycle_Cat_Title">Zyklus Optionen</string>
+    <string name="pref_MobileCycle_Cat_Key" translatable="false">pref_MobileCycle_Cat_Key</string>
+
+    <string name="pref_MobileCycle_Key" translatable="false">pref_MobileCycle_Key</string>
+    <string name="pref_MobileCycle_Title">Zyklus für mobile Daten und Anrufe</string>
+    <string name="pref_MobileCycle_Explanation">Bitte geben Sie den Tag des Monats ein wann die Datenverbrauchsmessung beginnt.</string>
+    <string name="pref_MobileCycle_Sum1">Nächster Reset des Datenverbrauchszyklus am: </string>
+    <string name="pref_MobileCycle_Sum2">. des Monats</string>
+    <string name="pref_MobileCycle_Default" translatable="false">1</string>
+    <string name="pref_MobileCycle_Unit">Datum</string>
+    <string name="pref_MobileCycle_XXDays2Long_Title">Zyklus-Konflikt</string>
+    <string name="pref_MobileCycle_XXDays2Long_Message1">Der eingegebene Wechsel-Tag liegt nicht innerhalb des</string>
+    <string name="pref_MobileCycle_XXDays2Long_Message2">-Tage Zyklus.\n\nDie Berechnung der verbrauchten Freiminuten und des Datenverbrauchs kann nicht korrekt durchgeführt werden.\n\nBitte Wechsel-Tag korrigieren.</string>
+
+    <string name="pref_MobileCycleOption_Key" translatable="false">pref_MobileCycleOption_Key</string>
+    <string name="pref_MobileCycleOption_Title">Zeitraster</string>
+    <string name="pref_MobileCycleOption_Default" translatable="false">0</string>
+    <string name="pref_MobileCycleOption_Sum">Zeitraster eingestellt auf: </string>
+
+    <string name="pref_MobileMonitoring_Key" translatable="false">pref_MobileMonitoring_Key</string>
+    <string name="pref_MobileMonitoring_Title">Monitoring mobile Daten</string>
+
+    <string name="pref_Calls_Screen_Key" translatable="false">pref_Calls_Screen_Key</string>
+    <string name="pref_CallsMonitoring_Key" translatable="false">pref_CallsMonitoring_Key</string>
+    <string name="pref_CallsMonitoring_Title">Monitoring Anrufe</string>
+    <string name="pref_Monitoring_SumOn">ist aktiviert</string>
+    <string name="pref_Monitoring_SumOff">ist deaktiviert</string>
+
+    <string name="pref_CallsIntegrateSMS_Key" translatable="false">pref_CallsIntegrateSMS_Key</string>
+    <string name="pref_CallsIntegrateSMS_Title">SMS</string>
+    <string name="pref_CallsIntegrateSMS_SumOn">werden mitgerechnet</string>
+    <string name="pref_CallsIntegrateSMS_SumOff">werden nicht mitgerechnet</string>
+
+    <string name="pref_MobileView_Key" translatable="false">pref_MobileView_Key</string>
+    <string name="pref_MobileView_Title">Datenanzeige</string>
+    <string name="pref_MobileView_SumOn">noch übrige Daten</string>
+    <string name="pref_MobileView_SumOff">verbrauchte Daten</string>
+
+    <string name="pref_MobileMaxVal_Key" translatable="false">pref_MobileMaxVal_Key</string>
+    <string name="pref_MobileMaxVal">High speed Limit für mobile Daten</string>
+    <string name="pref_MobileMaxVal_Expl">Bitte geben Sie den Schwellwert ein, bei dem Sie gewarnt werden wollen (z.B. den Wert Ihrer High speed flat rate)</string>
+    <string name="pref_MobileMaxVal_Sum">Das High speed Limit für mobile Daten ist: </string>
+    <string name="pref_MobileMaxVal_Default" translatable="false">524288000</string>
+    <string name="pref_MobileMaxVal_Unit">MByte</string>
+
+    <string name="pref_Calls_RefVal_Key" translatable="false">pref_Calls_RefVal_Key</string>
+    <string name="pref_Calls_RefVal_Title">Verbrauchte Freiminuten</string>
+    <string name="pref_Calls_RefVal_Expl">Bitte geben Sie die für den Abrechnungszeitraum bereits verbrauchten Freiminuten ein.</string>
+    <string name="pref_Calls_RefVal_Sum">Bereits verbrauchte Freiminuten: </string>
+    <string name="pref_Calls_RefVal_Default" translatable="false">0</string>
+    <string name="pref_Calls_RefVal_Unit">Min</string>
+
+    <string name="pref_Calls_FreeNumb_Key" translatable="false">pref_Calls_FreeNumb_Key</string>
+    <string name="pref_Calls_FreeNumbArr_Key" translatable="false">pref_Calls_FreeNumbArr_Key</string>
+    <string name="pref_Calls_FreeNumb_Default" translatable="false">0</string>
+    <string name="pref_Calls_FreeNumb_Title">Kostenlose Telefonnummern</string>
+    <string name="pref_Calls_FreeNumb_Title_Delete">Kostenlose Telefonnummern entfernen</string>
+    <string name="pref_Calls_FreeNumb_Sum">hinterlegte kostenlose Telefonnummern</string>
+    <string name="pref_Calls_FreeNumb_Apply">Übernehmen</string>
+    <string name="pref_Calls_FreeNumb_Task">bitte Nummern inkl. internationaler Vorwahl eingeben</string>
+    <string name="pref_Calls_FreeNumb_Expl">Geben Sie hier die Telefon Nummern ein, die bei Ihrem Vertrag kostenlos sind.</string>
+    <string name="pref_Calls_FreeNumb_Delete">Bitte die zu löschende Nummern markieren und mit Übernehmen bestätigen.</string>
+    <string name="pref_Calls_FreeNumb_Info1">Capricorn hat keinen Zugriff auf Ihre Kontaktdaten.\nDaher können, Sie falls gewünscht, Telefonnummern, die für Sie kostenlos sind hier selbst eingeben.\n
+        Capricorn verwendet die abgehenden Gespräche an diese Nummern nicht für die Berechnung der verbrauchten Freiminuten.</string>
+    <string name="pref_Calls_FreeNumb_Info2">Capricorn leitet diese Nummern nicht an Dritte weiter, kennt die Eigentümer nicht und verwendet die Nummern nur für die interne Berechnung.\n
+        Diese Nummern sind daher keine personenbezogene Daten für Capricorn.</string>
+    <string name="pref_Calls_FreeNumb_Info3">Nach der De-Installation von Capricorn sind alle Daten inklusive dieser Telefon-Nummern vollständig gelöscht.</string>
+    <string name="pref_CallsLog_Out_Min_Key" translatable="false">pref_CallsLog_Out_Min_Key</string>
+    <string name="pref_CallsLog_Out_Num_Key" translatable="false">pref_CallsLog_Out_Num_Key</string>
+    <string name="pref_CallsLog__In_Min_Key" translatable="false">pref_CallsLog__In_Min_Key</string>
+    <string name="pref_CallsLog__In_Num_Key" translatable="false">pref_CallsLog__In_Num_Key</string>
+    <string name="pref_CallsLog_MissNum_Key" translatable="false">pref_CallsLog_MissNum_Key</string>
+
+    <string name="pref_Calls_MaxVal_Key" translatable="false">pref_Calls_MaxVal_Key</string>
+    <string name="pref_Calls_MaxVal">Anzahl Freiminuten</string>
+    <string name="pref_Calls_MaxVal_Expl">Bitte geben Sie den Schwellwert für Freiminuten ein, bei dem Sie gewarnt werden wollen (z.B. den Wert Ihrer Freiminuten aus Ihrem Vertrag)</string>
+    <string name="pref_Calls_MaxVal_Sum">Anzahl der Freiminuten sind: </string>
+    <string name="pref_Calls_MaxVal_Default" translatable="false">100</string>
+    <string name="pref_Calls_MaxVal_Unit">Min</string>
+
+    <string name="pref_Calls_View_Key" translatable="false">pref_Calls_View_Key</string>
+    <string name="pref_Calls_View_Title">Anzeige der Anrufe</string>
+    <string name="pref_Calls_View_SumOn">noch übrige Freiminuten</string>
+    <string name="pref_Calls_View_SumOff">verbrauchte Freiminuten</string>
+
+    <string name="pref_NuPiRef_Mob_Key" translatable="false">pref_NuPiRef_Mob_Key</string>
+    <string name="pref_NuPiMax_Mob_Key" translatable="false">pref_NuPiMax_Mob_Key</string>
+    <string name="pref_NuPiRef_Calls_Key" translatable="false">pref_NuPiRef_Calls_Key</string>
+    <string name="pref_NuPiMax_Calls_Key" translatable="false">pref_NuPiMax_Calls_Key</string>
+
+</resources>

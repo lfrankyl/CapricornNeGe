@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_General_Cat_Title">Allgemein</string>
+    <string name="pref_View_Cat_Title">Widget Anzeigepositionen</string>
+    <string name="pref_View_Scr_Title">Position 1 bis 7 (von links nach rechts)</string>
+
+    <string name="pref_CurVal_Key" translatable="false">pref_CurVal_Key</string>
+    <string name="pref_CurVal_Title">Aktuelle Werte im Detail"</string>
+    <string name="pref_CurVal_Title_Standard">Standardwerte</string>
+    <string name="pref_CurVal_LastBoot">Letzter Geräte-Neustart:</string>
+    <string name="pref_CurVal_MobileMeasured_Key" translatable="false">pref_CurVal_MobileMeasured_Key</string>
+    <string name="pref_CurVal_MobileMeanPerDay_Key" translatable="false">pref_CurVal_MobileMeanPerDay_Key</string>
+    <string name="pref_CurVal_MobileTotal_Key" translatable="false">pref_CurVal_MobileTotal_Key</string>
+    <string name="pref_CurVal_SDK_Key" translatable="false">pref_CurVal_SDK_Key</string>
+    <string name="pref_CurVal_FingerPrint_Key" translatable="false">pref_CurVal_FingerPrint_Key</string>
+    <string name="pref_CurVal_Title_DeviceInfo">Geräte Information</string>
+    <string name="pref_CurVal_Title_SDK">SDK</string>
+    <string name="pref_CurVal_FingerPrint">Geräte Fingerabdruck:</string>
+    <string name="pref_CurVal_MobileDataInfo1">Mobile Daten</string>
+    <string name="pref_CurVal_MobileDataInfo2">gemessen seit letztem Geräte Neustart:</string>
+    <string name="pref_CurVal_MobileDataInfo3">Durchschnitt verbraucht:</string>
+    <string name="pref_CurVal_MobileDataInfo4">Gesamtwert vebraucht:</string>
+    <string name="pref_CurVal_Total">Gesamt:</string>
+    <string name="pref_CurVal_Received">Empfangen:</string>
+    <string name="pref_CurVal_Sent">Gesendet:</string>
+    <string name="pref_CurVal_MobileMeanMax">Max / Tag:</string>
+    <string name="pref_CurVal_MobileMeanCur">Aktuell / Tag:</string>
+    <string name="pref_CurVal_MobileMax">Möglich bis heute:</string>
+    <string name="pref_CurVal_MobileCur">Ist bis heute:</string>
+    <string name="pref_CurVal_CallDataInfo1">Anrufe</string>
+    <string name="pref_CurVal_CallDataInfo2">Ausgehende Anrufe:</string>
+    <string name="pref_CurVal_CallDataInfo3">Eingehende Anrufe:</string>
+    <string name="pref_CurVal_CallDataInfo4">Verpasste Anrufe:</string>
+    <string name="pref_CurVal_CallDataInfo5">Berücksichtigte SMS:</string>
+    <string name="pref_CurVal_Call_Unit">Min</string>
+    <string name="pref_CurVal_Call_Incoming_Key" translatable="false">pref_CurVal_Call_Incoming_Key</string>
+    <string name="pref_CurVal_Call_Outgoing_Key" translatable="false">pref_CurVal_Call_Outgoing_Key</string>
+    <string name="pref_CurVal_Call_Missed_Key" translatable="false">pref_CurVal_Call_Missed_Key</string>
+
+    <string name="pref_FirstSetup_Key" translatable="false">pref_FirstSetup_Key</string>
+
+</resources>

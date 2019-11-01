@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".NG_Activity_HelpHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:id="@+id/ll_impr_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" android:background="@drawable/ng_btn_help_bckgrd_port">
+            <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ng_btn_help_bckgrd_port"
+                    android:textAllCaps="false"
+                    android:textColor="@color/ng_btn_main_textcolor"
+                    android:id="@+id/btn_impr_gen"
+                    android:textOff="@string/pref_Impressum_Title"
+                    android:textOn="@string/pref_Impressum_Title"
+                    android:padding="5dp"
+                    android:layout_weight="1" android:drawableLeft="@drawable/ng_law_frag"/>
+
+            <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ng_btn_help_bckgrd_port"
+                    android:textAllCaps="false"
+                    android:textColor="@color/ng_btn_main_textcolor"
+                    android:id="@+id/btn_impr_OSS"
+                    android:textOff="@string/pref_OSS_Title"
+                    android:textOn="@string/pref_OSS_Title"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ng_oss_frag_2"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fl_frag_container_impr">
+                <fragment
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/ng_frag_impr"
+                        android:name="de.franky.l.capricornng.NG_Frag_Std"/>
+
+                <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/ng_viewpager_impr"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"/>
+            </FrameLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btn_capt_Std">Standard</string>
+    <string name="btn_capt_Mob">Daten</string>
+    <string name="btn_capt_Calls">Anrufe</string>
+    <string name="btn_capt_Wifi">WLAN</string>
+    <string name="btn_capt_Netwrk">Netzwerk</string>
+    <string name="btn_capt_Update">Aktualisieren</string>
+
+</resources>

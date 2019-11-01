@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	app:key="pref_Calls_Key">
+
+	<PreferenceCategory
+		app:title="@string/pref_CurVal_CallDataInfo1"
+		app:icon="@drawable/ng_phone_gen_frag">
+		<SwitchPreference
+			app:key="@string/pref_CallsMonitoring_Key"
+			app:title="@string/pref_CallsMonitoring_Title"
+			app:summaryOn="@string/pref_Monitoring_SumOn"
+			app:summaryOff="@string/pref_Monitoring_SumOff" />
+		<Preference
+			app:key="@string/pref_Calls_FreeNumb_Key"
+			app:summary="@string/pref_Calls_FreeNumb_Sum"
+			app:title="@string/pref_Calls_FreeNumb_Title">
+			<intent
+				android:action="NG_Settings_Free_PhoneNumber"
+				android:targetPackage="de.franky.l.capricornng"
+				android:targetClass="de.franky.l.capricornng.NG_Settings_Free_PhoneNumber"/>
+		</Preference>
+		<SwitchPreference
+			app:key="@string/pref_CallsIntegrateSMS_Key"
+			app:title="@string/pref_CallsIntegrateSMS_Title"
+			app:summaryOn="@string/pref_CallsIntegrateSMS_SumOn"
+			app:summaryOff="@string/pref_CallsIntegrateSMS_SumOff" />
+
+		<SwitchPreference
+			app:key="@string/pref_Calls_View_Key"
+			app:title="@string/pref_Calls_View_Title"
+			app:summaryOn="@string/pref_Calls_View_SumOn"
+			app:summaryOff="@string/pref_Calls_View_SumOff" />
+
+		<de.franky.l.capricornng.NG_Dlg_NuPi_Preference
+			app:key="@string/pref_NuPiMax_Calls_Key"
+			app:title="@string/pref_Calls_MaxVal"
+			app:persistent="true"
+			app:summary="@string/pref_Calls_MaxVal_Sum" />
+		<de.franky.l.capricornng.NG_Dlg_NuPi_Preference
+			app:key="@string/pref_NuPiRef_Calls_Key"
+			app:title="@string/pref_Calls_RefVal_Title"
+			app:persistent="true"
+			app:summary="@string/pref_Calls_RefVal_Sum" />
+	</PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

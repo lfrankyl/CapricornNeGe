@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_Intervall_Key" translatable="false">pref_Intervall_Key</string>
+    <string name="pref_Intervall_Title">Aktualisierungs Intervall [sec]</string>
+    <string name="pref_Intervall_Sum">Eingestelltes Aktualisierungsintervall: </string>
+    <string name="pref_Intervall_Default" translatable="false">3000</string>
+    <string name="pref_Intervall_Unit"> sec</string>
+
+    <string name="pref_TextSize_Key" translatable="false">pref_TextSize_Key</string>
+    <string name="pref_TextSize_Title">Textgröße Widget [Punkte]</string>
+    <string name="pref_TextSize_Default" translatable="false">12</string>
+    <string name="pref_TextSize_Unit">Punkte</string>
+    <string name="pref_TextSize_Sum">Eingestellte Textgröße im Widget:</string>
+
+    <string name="pref_TextSizeApp_Key" translatable="false">pref_TextSizeApp_Key</string>
+    <string name="pref_TextSizeApp_Title">Textgröße App [Punkte]</string>
+    <string name="pref_TextSizeApp_Default" translatable="false">12</string>
+    <string name="pref_TextSizeApp_Unit">Punkte</string>
+    <string name="pref_TextSizeApp_Sum">Eingestellte Textgröße der App:</string>
+
+    <string name="pref_Background_Key" translatable="false">pref_Background_2_Key</string>
+    <string name="pref_Background_Title">Widget Hintergrund</string>
+    <string name="pref_Background_Default" translatable="false">0</string>
+    <string name="pref_Background_Sum">Eingestellter Hintergrund:</string>
+
+    <string name="pref_BckgrdTransp_Title">Widget Transparenz</string>
+    <string name="pref_BckgrdTransp_Expl">Bitte stellen Sie die gewünschte Transparenz für den Widget-Hintergrund in Prozent ein. (0% = deckend, 100% = nicht sichtbar)</string>
+    <string name="pref_BckgrdTransp_Sum">Widget Transparenz:</string>
+    <string name="pref_BckgrdTransp_Unit" translatable="false">%</string>
+    <string name="pref_BckgrdTransp_Default" translatable="false">50</string>
+    <string name="pref_NuPi_BckgrdTransp_Key" translatable="false">pref_NuPi_BckgrdTransp_Key</string>
+
+    <string name="pref_WdgtFontcolor_Key" translatable="false">pref_Fontcolor_Key</string>
+    <string name="pref_WdgtFontcolor_Title">Widget Schriftfarbe</string>
+    <string name="pref_WdgtFontcolor_Default" translatable="false">0</string>
+    <string name="pref_WdgtFontcolor_Sum">Eingestellte Widget Schriftfarbe:</string>
+
+    <string name="pref_Language_Key" translatable="false">pref_Language_Key</string>
+    <string name="pref_Language_Title">Sprache</string>
+    <string name="pref_Language_Default">Deutsch</string>
+    <string name="pref_Language_Sum">Die App unterstützt Deutsch und Englisch. Ändern der Sprache über die Android Einstellungen. Gerät ist aktuell eingestellt auf:</string>
+
+</resources>

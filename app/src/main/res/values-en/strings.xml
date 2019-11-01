@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ng_nd">not defined</string>
+    <string name="ng_NotKnown">not known</string>
+    <string name="ng_pref_Off">Off</string>
+    <string name="ng_pref_On">On</string>
+    <string name="DefaultText">tbd</string>
+
+</resources>

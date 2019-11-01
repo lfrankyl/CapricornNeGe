@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+        package="de.franky.l.capricornng">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:name=".NG_Application"
+            android:allowBackup="true"
+            android:icon="@mipmap/capri_ng"
+            android:label="@string/ng_app_name"
+            android:roundIcon="@mipmap/capri_ng_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".NG_MainActivity"
+                android:label="@string/ng_app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".NG_Activity_InfoHeader"
+                android:label="@string/pref_Impressum_Title"
+                android:parentActivityName=".NG_MainActivity">
+        </activity>
+        <activity android:name=".NG_Activity_HelpHeader"
+                  android:label="@string/pref_Help_Title"
+                  android:parentActivityName=".NG_MainActivity">
+        </activity>
+        <activity android:name=".NG_Activity_SettingsHeader"
+                  android:label="@string/pref_Settings_Title"
+                  android:parentActivityName=".NG_MainActivity">
+        </activity>
+        <activity
+                android:name=".NG_Settings_Free_PhoneNumber"
+                android:label="@string/ng_app_name">
+            <intent-filter>
+                <action android:name="NG_Settings_Free_PhoneNumber" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cpc_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.franky.l.capricornng.NG_MainActivity"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/pref_CurVal_Title_Standard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV_S_H"
+            android:layout_weight="10"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ng_frag"
+            android:id="@+id/imageView"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL1"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tV_S_T1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ng_DontKnow" />
+
+        <TextView
+            android:id="@+id/tV_S_V1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/ng_DontKnow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL2">
+
+        <TextView
+            android:id="@+id/tV_S_T2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ng_DontKnow" />
+
+        <TextView
+            android:id="@+id/tV_S_V2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/ng_DontKnow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL3">
+
+        <TextView
+            android:id="@+id/tV_S_T3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ng_DontKnow" />
+
+        <TextView
+            android:id="@+id/tV_S_V3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/ng_DontKnow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL4">
+
+        <TextView
+            android:id="@+id/tV_S_T4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/ng_DontKnow" />
+
+        <TextView
+            android:id="@+id/tV_S_V4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/ng_DontKnow" />
+
+        <TextView
+            android:id="@+id/tV_S_V4_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="/" />
+
+        <TextView
+            android:id="@+id/tV_S_V4_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/ng_DontKnow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL5">
+
+        <TextView
+            android:id="@+id/tV_S_T5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/ng_DontKnow" />
+
+        <TextView
+            android:id="@+id/tV_S_V5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="@string/ng_DontKnow" />
+        <TextView
+            android:text="/"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tV_S_V5_1" />
+
+        <TextView
+            android:id="@+id/tV_S_V5_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/ng_DontKnow" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL6">
+
+        <TextView
+            android:id="@+id/tV_S_T6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/ng_DontKnow" />
+
+        <TextView
+            android:id="@+id/tV_S_V6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/ng_DontKnow" />
+        <TextView
+            android:text="/"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tV_S_V6_1" />
+
+        <TextView
+            android:id="@+id/tV_S_V6_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/ng_DontKnow" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/ng_main_blue" />
+    <TextView
+        android:text="@string/ng_DontKnow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV_S_V7"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/ng_main_blue" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Sys_H"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+<!--        android:text="@string/pref_CurVal_Title_DeviceInfo" /> -->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tV_S_SDK_H"
+                android:layout_weight="1" />
+            <!--                android:text="@string/pref_CurVal_Title_SDK" -->
+
+            <TextView
+                android:text="@string/ng_DontKnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tV_S_SDK_V"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="SDK incr.: "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="@string/ng_DontKnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Brand: "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="@string/ng_DontKnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Manufacturer: "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="@string/ng_DontKnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Model: "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="@string/ng_DontKnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Product: "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="@string/ng_DontKnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Board: "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="@string/ng_DontKnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Display (ID.BtLdr): "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="@string/ng_DontKnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Serial: "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="@string/ng_DontKnow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

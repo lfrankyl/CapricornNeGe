@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_CurVal_WLANDataInfo1">Wifi data</string>
+    <string name="pref_CurVal_WLANDataInfo2">measured since last boot:</string>
+    <string name="pref_CurVal_WLANDataInfo3">Display value:</string>
+    <string name="pref_CurVal_WLANDataInfo4">measured since:</string>
+
+    <string name="pref_wlanStartDate_Title">Start of measurement at:</string>
+    <string name="pref_wlanRefVal_Title">Start value for Wifi data</string>
+    <string name="pref_wlanRefVal_Explanation">Please enter the start value. Thats the value which will been added to the measured data.</string>
+    <string name="pref_wlanRefVal_Sum">Start value for Wifi data is: </string>
+    <string name="pref_wlanRefVal_Unit">MByte</string>
+    <string name="pref_wlanResetOffset_Title">Reset Start value</string>
+</resources>

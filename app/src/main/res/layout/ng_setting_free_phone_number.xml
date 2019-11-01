@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat">
+
+    <LinearLayout
+        android:id="@+id/ll_freePhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="@string/pref_Calls_FreeNumb_Expl"
+                android:textColor="@android:color/black"></TextView>
+
+            <TextView
+                android:id="@+id/tv_Clone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_PhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_margin="16dp"
+            android:src="@android:drawable/ic_dialog_info"
+            app:backgroundTint="@color/colorAccent"
+            app:layout_anchor="@+id/fab_Delete"
+            app:layout_anchorGravity="top" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ng_plus"
+        app:backgroundTint="@color/ng_main_blue" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:src="@android:drawable/ic_menu_delete"
+        app:backgroundTint="@color/ng_main_blue"
+        app:layout_anchor="@+id/fab_Add"
+        app:layout_anchorGravity="top" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

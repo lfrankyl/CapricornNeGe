@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_Intervall_Title">Update intervall [sec]</string>
+    <string name="pref_Intervall_Sum">Update interval is set to: </string>
+    <string name="pref_Intervall_Unit"> sec</string>
+
+    <string name="pref_TextSize_Title">Textsize [points]</string>
+    <string name="pref_TextSize_Sum">TextSize is set to:</string>
+    <string name="pref_TextSize_Unit">points</string>
+
+    <string name="pref_TextSizeApp_Sum">Selected text size for the app:</string>
+    <string name="pref_TextSizeApp_Title">Text size app [points]</string>
+    <string name="pref_TextSizeApp_Unit">points</string>
+
+    <string name="pref_Background_Title">Widget background</string>
+    <string name="pref_Background_Sum">Selected Background:</string>
+
+    <string name="pref_BckgrdTransp_Title">Widget Transparency</string>
+    <string name="pref_BckgrdTransp_Expl">Please enter the required transparency for the widget background in percent. (0% = opaque, 100% = not visible)</string>
+    <string name="pref_BckgrdTransp_Sum">Widget Transparency:</string>
+
+    <string name="pref_WdgtFontcolor_Title">Widget Font color</string>
+    <string name="pref_WdgtFontcolor_Sum">Selected Widget Font color</string>
+
+    <string name="pref_Language_Title">Language</string>
+    <string name="pref_Language_Default">German</string>
+    <string name="pref_Language_Sum">This app supports German and English. To change the language use Android settings. Device currently is set to:</string>
+
+</resources>

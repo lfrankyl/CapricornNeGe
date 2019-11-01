@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_CostRelevantData_Title">Cost relevant Data</string>
+    <string name="pref_CostRelevantData_Key">pref_CostRelevantData_Key</string>
+    <string name="pref_Cur_Bill_Period_Title">Current billing period</string>
+    <string name="pref_Cur_Bill_Period_Title1">Date of change:</string>
+    <string name="pref_Cur_Bill_Period_Title2">Still</string>
+    <string name="pref_Cur_Bill_Period_Title3">days</string>
+    <string name="pref_Cur_Bill_Period_Title4">Cycle length:</string>
+    <string name="pref_Cur_Bill_Period_Title5">monthly</string>
+
+</resources>
