@@ -1,5 +1,9 @@
 package de.franky.l.capricornng
 
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.util.Log
 import android.view.ViewGroup
 import android.widget.TextView
 
@@ -9,6 +13,47 @@ object NG_Utils {
     var NG_Wifi_Values   = NG_Values_Wifi()
     var NG_Val_Time_Cots = NG_Values_Time_Constraints()
     var NG_Val_Mob_Data  = NG_Values_Mobile_Data()
+    lateinit var NG_Receiver: NG_IntentReceiver
+
+    var bIsReceiverRegistered: Boolean =    false                                // Flag um festzustellen ob der Broadcastreceiver "WidgetIntentreceiver" bereits registriert ist
+
+    fun RegisterIntentReceiver() {
+        if (!bIsReceiverRegistered) {
+            val iFilter = IntentFilter()
+            iFilter.addAction(Intent.ACTION_USER_PRESENT)
+            iFilter.addAction(Intent.ACTION_SHUTDOWN)
+            // iFilter.addAction(AppWidgetManager.ACTION_APPWIDGET_UPDATE);
+            NG_Receiver = NG_IntentReceiver()
+            NG_Application.applicationContext().registerReceiver(NG_Receiver, iFilter)
+            Log.d("NG_IntentReceiver", "RegisterIntentReceiver")
+            bIsReceiverRegistered = true
+            //Intent intent = new Intent(sIntentAction);
+            //intent.setClass(Cpc_Application.getContext(), Cpc_WidgetIntentReceiver.class);
+        }
+    }
+
+    fun UnRegisterIntentReceiver() {
+        if (bIsReceiverRegistered) {
+            Log.d("NG_IntentReceiver", "UnRegisterIntentReceiver")
+            NG_Application.applicationContext().unregisterReceiver(NG_Receiver)
+            bIsReceiverRegistered = false
+        }
+    }
+
+
+    fun ActionsWhenShutDown(context: Context) {
+
+//        var lNumberPicker = Cpc_Utils.CurVal.DispData[5].getNumber() as Long
+//        NG_Pref.putLong(context.getString(R.string.pref_MobileMessung_Key), 0)
+//        NG_Pref.putLong(context.getString(R.string.pref_NuPiRef_Mob_Key), lNumberPicker)
+//        NG_Pref.putLong(Cpc_Std_Data.pref_MobileMessungSaved_Key, 0)
+//
+//        // Log.d("ShutDown Logging pref_NuPiRef_Mob_Key",String.valueOf(lNumberPicker));
+//
+//        lNumberPicker = Cpc_Utils.CurVal.DispData[6].getNumber()
+//        NG_Pref.putLong(context.getString(R.string.pref_wlanOffset_Key), 0)
+//        NG_Pref.putLong(context.getString(R.string.pref_NuPiRef_Wlan_Key), lNumberPicker)
+    }
 
 
     fun MakeOutString(NumberToBeCalc: Double): String {

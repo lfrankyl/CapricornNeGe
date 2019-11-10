@@ -122,6 +122,11 @@ class NG_MainActivity : AppCompatActivity() {
         tManager?.listen(listener, PhoneStateListener.LISTEN_CALL_STATE);
     }
 
+    override fun onResume() {
+        super.onResume()
+        NG_Utils.RegisterIntentReceiver()
+    }
+
     private fun setButtonCheckStatus(Std: Boolean?,Mobile: Boolean?,Wifi: Boolean?,Netwrk: Boolean?,Calls: Boolean?) {
         btnStd?.setChecked(Std!!)
         btnMobile?.setChecked(Mobile!!)
