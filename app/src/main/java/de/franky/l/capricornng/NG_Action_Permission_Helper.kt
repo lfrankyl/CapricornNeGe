@@ -54,7 +54,7 @@ object NG_Action_Permission_Helper {
                 ) { dialog, id ->
                     ActivityCompat.requestPermissions(
                         myActivity, permissionsList.toTypedArray(),
-                        Cpc_Std_Data.MY_PERMISSION_BOTH
+                        NG_Utils.NG_Val_Calls.MY_PERMISSION_BOTH
                     )
                     dialog.cancel()
                 }
@@ -68,7 +68,7 @@ object NG_Action_Permission_Helper {
             } else {
                 ActivityCompat.requestPermissions(
                     myAct, permissionsList.toTypedArray(),
-                    Cpc_Std_Data.MY_PERMISSION_BOTH
+                    NG_Utils.NG_Val_Calls.MY_PERMISSION_BOTH
                 )
             }
         }

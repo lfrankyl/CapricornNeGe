@@ -11,7 +11,7 @@ import androidx.preference.PreferenceFragmentCompat
 import java.util.GregorianCalendar
 import androidx.preference.EditTextPreference
 import androidx.preference.Preference
-import de.franky.l.capricornng.NG_Utils.NG_Wifi_Values
+import de.franky.l.capricornng.NG_Utils.NG_Val_Wifi
 
 
 class NG_Settings_Frag_Wlan : PreferenceFragmentCompat() {
@@ -41,10 +41,10 @@ class NG_Settings_Frag_Wlan : PreferenceFragmentCompat() {
 
         myPrefWlanDate = findPreference(getString(R.string.pref_wlanStartDate_Key))
         myPrefWlanData = findPreference(getString(R.string.pref_NuPiRef_Wlan_Key))
-        val lCurrentSummText = NG_Wifi_Values.lNuPiWifiRevVal()
+        val lCurrentSummText = NG_Val_Wifi.lNuPiWifiRevVal()
         var sCurrentSummText = NG_Utils.MakeOutString(lCurrentSummText.toDouble())
         sCurrentSummText = sCurrentSummText + " " + NG_Utils.CalcUnit(lCurrentSummText.toDouble())
-        val sDate = NG_Wifi_Values.sWifiStartDate()
+        val sDate = NG_Val_Wifi.sWifiStartDate()
         myPrefWlanDate?.setSummary(sDate)
         myPrefWlanData?.setSummary(sCurrentSummText)
 
@@ -95,7 +95,7 @@ class NG_Settings_Frag_Wlan : PreferenceFragmentCompat() {
 
                     //Log.d("onCreateDialogView",String.valueOf(iWlanPickerValueNeu));
                     dialogFragment.PickerData!!.wrapSelectorWheel = true
-                    dialogFragment.PickerData!!.value = NG_Utils.iCalcDataVal(NG_Utils.NG_Wifi_Values.lNuPiWifiRevVal())
+                    dialogFragment.PickerData!!.value = NG_Utils.iCalcDataVal(NG_Utils.NG_Val_Wifi.lNuPiWifiRevVal())
                     dialogFragment.PickerUnit = it.findViewById(R.id.nupi_refval_unit)
 
                     // Initialize state
@@ -103,7 +103,7 @@ class NG_Settings_Frag_Wlan : PreferenceFragmentCompat() {
                     dialogFragment.PickerUnit!!.minValue = iWlanUnitMin
                     dialogFragment.PickerUnit!!.wrapSelectorWheel = true  // Works only on SKD >=16,
                     dialogFragment.PickerUnit!!.displayedValues = sUnitValues
-                    dialogFragment.PickerUnit!!.value = NG_Utils.iCalcDataUnitIndex(NG_Utils.NG_Wifi_Values.lNuPiWifiRevVal())
+                    dialogFragment.PickerUnit!!.value = NG_Utils.iCalcDataUnitIndex(NG_Utils.NG_Val_Wifi.lNuPiWifiRevVal())
                 }
             }
         else
@@ -117,9 +117,9 @@ class NG_Settings_Frag_Wlan : PreferenceFragmentCompat() {
         val lMessung = TrafficStats.getTotalTxBytes() + TrafficStats.getTotalRxBytes() - TrafficStats.getMobileRxBytes() - TrafficStats.getMobileTxBytes()
         val myCal = GregorianCalendar()
         val sDate = android.text.format.DateFormat.format("dd.MM.yyyy", myCal.time).toString()
-        NG_Utils.NG_Wifi_Values.lNuPiWifiRevVal(lValNumPicker)
-        NG_Utils.NG_Wifi_Values.lWifiOffset(lMessung)
-        NG_Wifi_Values.sWifiStartDate(sDate)
+        NG_Utils.NG_Val_Wifi.lNuPiWifiRevVal(lValNumPicker)
+        NG_Utils.NG_Val_Wifi.lWifiOffset(lMessung)
+        NG_Val_Wifi.sWifiStartDate(sDate)
         sNewSummText = NG_Utils.MakeOutString(lValNumPicker.toDouble()) + " " + NG_Utils.CalcUnit(lValNumPicker.toDouble())
         myPrefWlanDate?.setSummary(sDate);
         myPrefWlanData?.setSummary(sNewSummText);

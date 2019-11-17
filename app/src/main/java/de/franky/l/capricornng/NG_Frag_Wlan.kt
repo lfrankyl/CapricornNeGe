@@ -8,7 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import de.franky.l.capricornng.NG_Utils.NG_Wifi_Values
+import de.franky.l.capricornng.NG_Utils.NG_Val_Wifi
 
 
 /**
@@ -87,11 +87,11 @@ class NG_Frag_Wlan : androidx.fragment.app.Fragment() {
 
     private fun FillWlanPage() {
 
-        SetTextViewText(R.id.tV_W_V1,NG_Utils.MakeOutString(NG_Wifi_Values.Wifi_Total().toDouble() ) + NG_Utils.CalcUnit(NG_Wifi_Values.Wifi_Total().toDouble()))
-        SetTextViewText(R.id.tV_W_V2,NG_Utils.MakeOutString(NG_Wifi_Values.Wifi_Send().toDouble()) + NG_Utils.CalcUnit(NG_Wifi_Values.Wifi_Send().toDouble()))
-        SetTextViewText(R.id.tV_W_V3,NG_Utils.MakeOutString(NG_Wifi_Values.Wifi_Received().toDouble()) + NG_Utils.CalcUnit(NG_Wifi_Values.Wifi_Received().toDouble()))
-        SetTextViewText(R.id.tV_W_V5,NG_Utils.MakeOutString(NG_Wifi_Values.Wifi_MeasuredValue().toDouble()) + NG_Utils.CalcUnit(NG_Wifi_Values.Wifi_MeasuredValue().toDouble()) )
-        SetTextViewText(R.id.tV_W_V6, NG_Wifi_Values.sWifiStartDate())     // WLAN-Datum  aus sharedpreference
+        SetTextViewText(R.id.tV_W_V1,NG_Utils.MakeOutString(NG_Val_Wifi.Wifi_Total().toDouble() ) + NG_Utils.CalcUnit(NG_Val_Wifi.Wifi_Total().toDouble()))
+        SetTextViewText(R.id.tV_W_V2,NG_Utils.MakeOutString(NG_Val_Wifi.Wifi_Send().toDouble()) + NG_Utils.CalcUnit(NG_Val_Wifi.Wifi_Send().toDouble()))
+        SetTextViewText(R.id.tV_W_V3,NG_Utils.MakeOutString(NG_Val_Wifi.Wifi_Received().toDouble()) + NG_Utils.CalcUnit(NG_Val_Wifi.Wifi_Received().toDouble()))
+        SetTextViewText(R.id.tV_W_V5,NG_Utils.MakeOutString(NG_Val_Wifi.Wifi_MeasuredValue().toDouble()) + NG_Utils.CalcUnit(NG_Val_Wifi.Wifi_MeasuredValue().toDouble()) )
+        SetTextViewText(R.id.tV_W_V6, NG_Val_Wifi.sWifiStartDate())     // WLAN-Datum  aus sharedpreference
     }
 
     internal fun SetTextViewText(iTV: Int, sText: String) {

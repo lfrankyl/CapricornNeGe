@@ -5,7 +5,6 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.net.TrafficStats
-import android.net.wifi.WifiInfo
 import android.net.wifi.WifiManager
 import android.os.Build
 import android.util.Log
@@ -49,8 +48,8 @@ class NG_Values_Wifi {
         val lNuPi_wlan_RefVal: Long
 
         try {
-            lNuPi_wlan_RefVal = NG_Utils.NG_Wifi_Values.lNuPiWifiRevVal()
-            lwlanOffset = NG_Utils.NG_Wifi_Values.lWifiOffset()
+            lNuPi_wlan_RefVal = NG_Utils.NG_Val_Wifi.lNuPiWifiRevVal()
+            lwlanOffset = NG_Utils.NG_Val_Wifi.lWifiOffset()
             /*
 			 Log.d("JustGetTheValues  iNuPi_wlan_RefVal",String.valueOf(lNuPi_wlan_RefVal));
 			 Log.d("JustGetTheValues  lwlanOffset",String.valueOf(lwlanOffset));

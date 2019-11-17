@@ -190,4 +190,23 @@ object NG_Utils_Data_Constraints{
         return calOfChange
     }
 
+    private fun CallDurationCheck(sDurSec: String): Int {
+        var iCallDurationCalc = sDurSec.toInt()
+        // Log.d("iCallDurationCalc", String.valueOf(iCallDurationCalc));
+        // Log.d("iCallDurationCalc/60", String.valueOf((float)iCallDurationCalc/60));
+        // Log.d("float iCallDurationCalc", String.valueOf(Math.floor((float)iCallDurationCalc/60)));
+        try {
+            if (iCallDurationCalc.toFloat() / 60 > Math.floor((iCallDurationCalc.toFloat() / 60).toDouble())) {
+                iCallDurationCalc = (iCallDurationCalc.toFloat() / 60 + 1).toInt() * 60
+            }
+        } catch (e: Exception) {
+            iCallDurationCalc = -1
+        }
+
+        // Log.d("iCallDurationCalc danach", String.valueOf((float)iCallDurationCalc));
+        return iCallDurationCalc
+
+    }
+
+
 }

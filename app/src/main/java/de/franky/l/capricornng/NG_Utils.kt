@@ -10,9 +10,11 @@ import android.widget.TextView
 object NG_Utils {
 
     var NG_Pref          = NG_SharePref()
-    var NG_Wifi_Values   = NG_Values_Wifi()
+    var NG_Val_Wifi      = NG_Values_Wifi()
     var NG_Val_Time_Cots = NG_Values_Time_Constraints()
     var NG_Val_Mob_Data  = NG_Values_Mobile_Data()
+    var NG_Val_Calls     = NG_Values_Calls()
+
     lateinit var NG_Receiver: NG_IntentReceiver
 
     var bIsReceiverRegistered: Boolean =    false                                // Flag um festzustellen ob der Broadcastreceiver "WidgetIntentreceiver" bereits registriert ist

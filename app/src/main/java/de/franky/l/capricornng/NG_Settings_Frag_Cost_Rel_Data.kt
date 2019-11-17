@@ -308,8 +308,8 @@ class NG_Settings_Frag_Cost_Rel_Data : PreferenceFragmentCompat()  {
             sNewSummText = NG_Utils.MakeOutString(lValNumPicker.toDouble()) + " " + NG_Utils.CalcUnit(lValNumPicker.toDouble())
             NG_Utils.NG_Val_Mob_Data.lNuPiMobRevVal(lValNumPicker)
             myNumberPickerPref?.summary = sNewSummText
-            NG_Utils.NG_Wifi_Values.bWIFISetup(NG_Utils.NG_Wifi_Values.IsWLANandLollipop())
-            if (NG_Utils.NG_Wifi_Values.IsWLANandLollipop()) {
+            NG_Utils.NG_Val_Wifi.bWIFISetup(NG_Utils.NG_Val_Wifi.IsWLANandLollipop())
+            if (NG_Utils.NG_Val_Wifi.IsWLANandLollipop()) {
                 Log.i("pref_NuPiRef_Mob_Key", "pref_WlanSetup_Key -> true")
             } else {
                 val lMessung = TrafficStats.getMobileRxBytes() + TrafficStats.getMobileTxBytes()

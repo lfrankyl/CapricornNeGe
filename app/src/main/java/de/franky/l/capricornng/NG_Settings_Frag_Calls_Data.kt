@@ -12,7 +12,6 @@ import java.util.Calendar
 import java.util.GregorianCalendar
 
 import de.franky.l.capricornng.NG_Utils.NG_Pref
-import de.franky.l.capricornng.NG_Utils.NG_Wifi_Values
 
 class NG_Settings_Frag_Calls_Data : PreferenceFragmentCompat(), SharedPreferences.OnSharedPreferenceChangeListener  {
 

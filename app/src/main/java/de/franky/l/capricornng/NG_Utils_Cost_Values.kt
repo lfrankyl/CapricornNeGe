@@ -5,6 +5,7 @@ import android.widget.Toast
 import java.util.*
 
 object NG_Utils_Cost_Values{
+
     fun IsADayWithinDaysRange(iDay2Consider: Int?, iRange: Int?): Boolean {
         // Log.d("IsADayWithin30Days","Start -------------------------");
         val myTempCal = Calendar.getInstance()                        // Wir lassen uns vom System ein Kalender-Objekt geben

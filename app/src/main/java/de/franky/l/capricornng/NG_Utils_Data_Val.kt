@@ -1,7 +1,6 @@
 package de.franky.l.capricornng
 
 import android.content.Context
-import android.net.TrafficStats
 import android.util.Log
 
 import de.franky.l.capricornng.NG_Utils.NG_Pref
@@ -38,9 +37,9 @@ internal object NG_Utils_Data_Val {
 
         // Log.d("JustGetTheValues pref_WlanSetup_Key",String.valueOf(Cpc_Std_Data.getBoolean(context.getString(R.string.pref_WlanSetup_Key), false)));
         // Log.d("JustGetTheValues pref_FirstSetup_Key",String.valueOf(Cpc_Std_Data.getBoolean(context.getString(R.string.pref_FirstSetup_Key), false)));
-        lMobileMessung = NG_Utils.NG_Wifi_Values.Mobile_Total()                // Mobile Daten aus System Daten holen
+        lMobileMessung = NG_Utils.NG_Val_Wifi.Mobile_Total()                // Mobile Daten aus System Daten holen
         //Log_Mob("lMobileMessung",lMobileMessung.toDouble());
-        if (lMobileMessung == 0L || NG_Utils.NG_Wifi_Values.IsWLANandLollipop())
+        if (lMobileMessung == 0L || NG_Utils.NG_Val_Wifi.IsWLANandLollipop())
         // keine mobilen Daten gemessen werden z.B. wenn Lollopop und wlan aktiv oder Mobile Daten komplett aus
         {
             lMobileMessung = NG_Pref.getLong(R.string.pref_MobileMessungSaved_Key,0)      // Deshalb Wert aus Speicher holen und anzeigen
@@ -51,7 +50,7 @@ internal object NG_Utils_Data_Val {
             // Die App wurde gerade frisch installiert oder jmd hat die App-Daten geloescht
             if (!NG_Pref.getBool(context.getString(R.string.pref_FirstSetup_Key), false)) {
                 // Das erste Setup wurde per wlan gemacht
-                if (NG_Utils.NG_Wifi_Values.bWIFISetup()) {
+                if (NG_Utils.NG_Val_Wifi.bWIFISetup()) {
                     NG_Pref.putBool(context.getString(R.string.pref_FirstSetup_Key),true )                        //Flag setzen dass richtige mobile Daten gemessen wurden
                     lMobileOffset = lMobileMessung
                     NG_Utils.NG_Val_Mob_Data.lMobileOffsetMessung(lMobileMessung)
@@ -61,7 +60,7 @@ internal object NG_Utils_Data_Val {
             // Log.d("Mobile or not Lollipop lMobileMessung",String.valueOf(lMobileMessung));
         }
 
-        lwlanMessung = NG_Utils.NG_Wifi_Values.Wifi_Total()
+        lwlanMessung = NG_Utils.NG_Val_Wifi.Wifi_Total()
         //Log.d("JustGetTheValues  lwlanMessung",String.valueOf(lwlanMessung));
         //Log_Mob("lMobileMessung",lMobileMessung.toDouble());
 
