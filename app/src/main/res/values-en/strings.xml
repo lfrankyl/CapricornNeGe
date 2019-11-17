@@ -6,4 +6,12 @@
     <string name="ng_pref_On">On</string>
     <string name="DefaultText">tbd</string>
 
+    <string name="Perm_Dlg_Title">" needs access"</string>
+    <string name="Perm_Calls_Rationale">to telephone log to evaluate the calls.</string>
+    <string name="Perm_Calls_Granted">Access to telephone log was granted</string>
+    <string name="Perm_Calls_Denied">Access to telephone log was NOT granted. Calls cannot be evaluated</string>
+
+    <string name="Perm_SMS_Rationale">to the number of sent SMS to add the SMS to the calls in relevant contracts.</string>
+    <string name="Perm_SMS_Granted">Access to SMS was granted</string>
+    <string name="Perm_SMS_Denied">Access to SMS was NOT granted. SMS cannot be evaluated</string>
 </resources>

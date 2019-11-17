@@ -18,4 +18,12 @@
     <string name="ng_pref_Off">Aus</string>
     <string name="DefaultText">tbd</string>
 
+    <string name="Perm_Dlg_Title">" benötigt Zugriff"</string>
+    <string name="Perm_Calls_Rationale">auf das Telefonprotokoll um Telefonanrufe auswerten zu können.</string>
+    <string name="Perm_Calls_Granted">Zugriff auf Telefonprotokoll wurde gewährt</string>
+    <string name="Perm_Calls_Denied">Zugriff auf Telefonprotokoll wurde NICHT gewährt. Anrufe können durch Capricorn nicht ausgewertet werden</string>
+
+    <string name="Perm_SMS_Rationale">auf die Anzahl der gesendeten SMS, um bei entsprechenden Verträgen die SMS und die Anrufe zu addieren.</string>
+    <string name="Perm_SMS_Granted">Zugriff auf SMS wurde gewährt</string>
+    <string name="Perm_SMS_Denied">Zugriff auf SMS wurde NICHT gewährt. SMS können durch Capricorn nicht ausgewertet werden</string>
 </resources>
